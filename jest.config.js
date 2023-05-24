@@ -1,3 +1,4 @@
+// ran before every test
 module.exports = {
   clearMocks: true,
   collectCoverage: false,
@@ -9,6 +10,6 @@ module.exports = {
     ".(ts|tsx)": ["ts-jest"],
   },
   moduleNameMapper: {
-    '\\.(scss|sass|css)$': '<rootDir>/__mocks__/styleMock.js'
-  }
+    "\\.(scss|sass|css)$": "<rootDir>/__mocks__/styleMock.js",
+  },
 };
